@@ -17,7 +17,15 @@ end
 
 
 def assign_rooms(names)
+  room_number = 0
+  name_and_room_list = []
   
+  names.each do |name|
+    room_number += 1 
+    name_and_room_list.push("Hello, #{name}! You'll be assigned to room #{room_number}!")
+  end
+  
+  name_and_room_list
 end 
 
 
