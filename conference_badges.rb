@@ -9,7 +9,7 @@ def batch_badge_creator(names)
   greetings_with_names = []
   
   names.each do |name|
-    greetings_with_names.push(badge_maker(name))
+    greetings_with_names << badge_maker(name)
   end 
   
   greetings_with_names
