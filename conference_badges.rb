@@ -6,13 +6,13 @@ end
 
 
 def batch_badge_creator(names)
-  greetings = []
+  greetings_with_names = []
   
   names.each do |name|
-    greetings.push(badge_maker(name))
+    greetings_with_names.push(badge_maker(name))
   end 
   
-  greetings
+  greetings_with_names
 end 
 
 
